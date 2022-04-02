@@ -1,0 +1,28 @@
+
+
+:root {
+	--offwhite: rgb(44,44,44);
+}
+
+body {
+  background-color: black;
+  color: white;
+  
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  
+}
+
+.item {
+  background-color: var(--offwhite);
+}
+
+
+
+.hidden {
+   /* turn the element off */
+   display: none;
+}

@@ -1,0 +1,17 @@
+
+IMPORTANT - function that makes any text with the a valid ID from a set of ID's editable ON CLICK and saves as user moves focus from that element.
+
+
+
+
+
+/*
+Get an IDE, get it connected to GitHub, and then paste this into your IDE
+learn difference between client/server side rendering
+make to do items editable withc a check box
+save / load multiple lists by title
+be able to save lists as you are typing them *autosave while writing*
+have a directory of lists and be able to swap through them freely
+load a list on startup / refresh
+also look pretty
+*/

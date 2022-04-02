@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS To Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+
+
+
+  <div id="to-do-title"> <!--- user inputted string to title   --->
+    <form id="title-form" onsubmit="titleChange(event)">
+    Title:
+    <input type="text" name='title'> <!--- NAME lets you access that specific peice of data in JS --->
+    <button type='submit'>
+    OK
+    </button>
+    </form>
+  </div>
+  
+  
+  
+  <div id='rename-title' class="hidden">
+      <span id="title"></span>
+  
+      <button onclick="renameButton()" >
+    Rename List
+    </button> 
+  
+  </div>
+  
+  <div id="append-form">
+  <!--- form doesn't clear on submit yet, but maybe that could be useful when css is fancier --->
+  <span>
+    <form id="add-to-do" onsubmit="appendTaskToList(event)">
+    Task:
+      <input type="text" name="userText">
+      <button submit>
+      Add
+      </button>
+    </form>
+  </span>
+  
+  </div>
+  
+  <div id='user-content'>
+  
+  </div>
+
+
+
+
+  </body>
+</html>
+<script src="main.js"></script>
